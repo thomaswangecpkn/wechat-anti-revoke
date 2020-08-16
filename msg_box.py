@@ -47,7 +47,7 @@ def module_msg_box_run():
 
 def normal_msg_process(bot, msg):
     if (msg['FromUserName'] == global_params["admin_user_username"] and msg['ToUserName'] == global_params["admin_user_username"]) or \
-       (msg['FromUserName'] == global_params["cbyl_group_username"] and msg['ActualNickName'] != global_params["admin_user_init_name"]):
+       (msg['FromUserName'] == global_params["cbyl_group_username"]):
         if command_helper_normal_msg_process(msg):
             return True
         if keyword_award_normal_msg_process(msg):
