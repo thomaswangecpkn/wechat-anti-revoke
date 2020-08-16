@@ -1,46 +1,17 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
+# -*-encoding:utf-8-*-
 
-import sys
-import os, re, shutil, time, collections, json
+import sys, os, time, collections, threading
 
 from html.parser import HTMLParser
-from xml.etree import ElementTree as ETree
 
-import itchat
-from itchat.content import *
+from globals import *
 
-msg_store = collections.OrderedDict()
-timeout = 600
-sending_type = {'Picture': 'img', 'Video': 'vid'}
-data_path = 'data'
 nickname = ''
-bot = None
-
-if __name__ == '__main__':
-    if not os.path.exists(data_path):
-        os.mkdir(data_path)
-    # if the QR code doesn't show correctly, you can try to change the value
-    # of enableCdmQR to 1 or -1 or -2. It nothing works, you can change it to
-    # enableCmdQR=True and a picture will show up.
-    bot = itchat.new_instance()
-    bot.auto_login(hotReload=True, enableCmdQR=2)
-    nickname = bot.loginInfo['User']['NickName']
-
-def clear_timeouted_message():
-    now = time.time()
-    count = 0
-    for k, v in list(msg_store.items()):
-        if now - v['ReceivedTime'] > timeout:
-            count += 1
-        else:
-            break
-    for i in range(count):
-        item = msg_store.popitem(last=False)
 
 def get_sender_receiver(msg):
     sender = nickname
     receiver = nickname
-    print(msg['FromUserName'])
     if msg['FromUserName'][0:2] == '@@': # group chat
         sender = msg['ActualNickName']
         m = bot.search_chatrooms(userName=msg['FromUserName'])
@@ -97,38 +68,14 @@ def get_whole_msg(msg, download=False):
         c += ' ' + url
     return ['[%s]->[%s]: %s' % (sender, receiver, c)]
 
-@bot.msg_register([TEXT, PICTURE, MAP, CARD, SHARING, RECORDING,
-    ATTACHMENT, VIDEO, FRIENDS], isFriendChat=True, isGroupChat=True)
-def normal_msg(msg):
-    print_msg(get_whole_msg(msg))
-    now = time.time()
-    msg['ReceivedTime'] = now
-    msg_id = msg['MsgId']
-    msg_store[msg_id] = msg
-    clear_timeouted_message()
+def send_msg_to_cbyl(msg_str):
+    bot.send(msg_str, toUserName=global_params["cbyl_group_username"])
 
-@bot.msg_register([NOTE], isFriendChat=True, isGroupChat=True)
-def note_msg(msg):
-    print_msg(get_whole_msg(msg))
-    content = HTMLParser().unescape(msg['Content'])
-    try:
-        content_tree = ETree.fromstring(content)
-    except Exception:
-        # invent/remove to chatroom
-        return
-    if content_tree is None:
-        return
-    revoked = content_tree.find('revokemsg')
-    if revoked is None:
-        return
-    old_msg_id = revoked.find('msgid').text
-    old_msg = msg_store.get(old_msg_id)
-    if old_msg is None:
-        return
-    msg_send = get_whole_msg(old_msg, download=True)
-    for m in msg_send:
-        bot.send(m, toUserName='filehelper')
-    clear_timeouted_message()
+def send_msg_to_myself(msg_str):
+    bot.send(msg_str, toUserName='filehelper')
 
-if __name__ == '__main__':
-    bot.run()
+def broadcast_msg(msg_str):
+    if global_params["DEBUG"] == 1:
+        send_msg_to_myself(msg_str)
+    else:
+        send_msg_to_cbyl(msg_str)

@@ -1,20 +1,24 @@
-import sys, os, time, collections
+#!/usr/bin/env python
+# -*-encoding:utf-8-*-
 
-from HTMLParser import HTMLParser
+import sys, os, time, collections, threading
+
+from html.parser import HTMLParser
 from xml.etree import ElementTree as ETree
 
 import itchat
 from itchat.content import *
 
+from globals import *
+from msg_utils import *
 from anti_revoke import anti_revoke_note_msg_process
 from keyword_award import keyword_award_normal_msg_process
+from command_helper import command_helper_normal_msg_process
 
 msg_store = collections.OrderedDict()
 timeout = 600
 sending_type = {'Picture': 'img', 'Video': 'vid'}
 data_path = 'data'
-nickname = ''
-bot = None
 
 def module_msg_box_init():
     if not os.path.exists(data_path):
@@ -22,88 +26,36 @@ def module_msg_box_init():
     # if the QR code doesn't show correctly, you can try to change the value
     # of enableCdmQR to 1 or -1 or -2. It nothing works, you can change it to
     # enableCmdQR=True and a picture will show up.
-    bot = itchat.new_instance()
-    bot.auto_login(hotReload=True, enableCmdQR=2)
+    bot.auto_login(hotReload=False, enableCmdQR=1)
     nickname = bot.loginInfo['User']['NickName']
+    while 1:
+        cbyl_group_instance = bot.search_chatrooms(name=global_params["cbyl_group_init_name"])
+        if type(cbyl_group_instance) is list and len(cbyl_group_instance) == 1:
+            global_params["cbyl_group_username"] = cbyl_group_instance[0]["UserName"]
+            break
+        global_params["cbyl_group_init_name"] = input("cbyl group name:")
+    while 1:
+        admin_user_instance = bot.search_friends(name=global_params["admin_user_init_name"])
+        if type(admin_user_instance) is list and len(admin_user_instance) == 1:
+            global_params["admin_user_username"] = admin_user_instance[0]["UserName"]
+            break
+        global_params["admin_user_init_name"] = input("admin name:")
 
 def module_msg_box_run():
     bot.run()
+    #threading.Thread(target = bot.run).start()
 
 def normal_msg_process(bot, msg):
-    keyword_award_normal_msg_process(bot, msg)
+    if (msg['FromUserName'] == global_params["admin_user_username"] and msg['ToUserName'] == global_params["admin_user_username"]) or \
+       (msg['FromUserName'] == global_params["cbyl_group_username"] and msg['ActualNickName'] != global_params["admin_user_init_name"]):
+        if command_helper_normal_msg_process(msg):
+            return True
+        if keyword_award_normal_msg_process(msg):
+            return True
+    return False
 
 def note_msg_process(bot, msg, old_msg):
     anti_revoke_note_msg_process(bot, msg, old_msg)
-
-def clear_timeouted_message():
-    now = time.time()
-    count = 0
-    for k, v in msg_store.items():
-        if now - v['ReceivedTime'] > timeout:
-            count += 1
-        else:
-            break
-    for i in range(count):
-        item = msg_store.popitem(last=False)
-
-def get_sender_receiver(msg):
-    sender = nickname
-    receiver = nickname
-    if msg['FromUserName'][0:2] == '@@': # group chat
-        sender = msg['ActualNickName']
-        m = bot.search_chatrooms(userName=msg['FromUserName'])
-        if m is not None:
-            receiver = m['NickName']
-    elif msg['ToUserName'][0:2] == '@@': # group chat by myself
-        if 'ActualNickName' in msg:
-            sender = msg['ActualNickName']
-        else:
-            m = bot.search_friends(userName=msg['FromUserName'])
-            if m is not None:
-                sender = m['NickName']
-        m = bot.search_chatrooms(userName=msg['ToUserName'])
-        if m is not None:
-            receiver = m['NickName']
-    else: # personal chat
-        m = bot.search_friends(userName=msg['FromUserName'])
-        if m is not None:
-            sender = m['NickName']
-        m = bot.search_friends(userName=msg['ToUserName'])
-        if m is not None:
-            receiver = m['NickName']
-    return HTMLParser().unescape(sender), HTMLParser().unescape(receiver)
-
-def print_msg(msg):
-    msg_str = ' '.join(msg)
-    print msg_str
-    return msg_str
-
-def get_whole_msg(msg, download=False):
-    sender, receiver = get_sender_receiver(msg)
-    if len(msg['FileName']) > 0 and len(msg['Url']) == 0:
-        if download: # download the file into data_path directory
-            fn = os.path.join(data_path, msg['FileName'])
-            msg['Text'](fn)
-            if os.path.getsize(fn) == 0:
-                return []
-            c = '@%s@%s' % (sending_type.get(msg['Type'], 'fil'), fn)
-        else:
-            c = '@%s@%s' % (sending_type.get(msg['Type'], 'fil'), msg['FileName'])
-        return ['[%s]->[%s]:' % (sender, receiver), c]
-    c = msg['Text']
-    if len(msg['Url']) > 0:
-        try: # handle map label
-            content_tree = ETree.fromstring(msg['OriContent'])
-            if content_tree is not None:
-                map_label = content_tree.find('location')
-                if map_label is not None:
-                    c += ' ' + map_label.attrib['poiname']
-                    c += ' ' + map_label.attrib['label']
-        except:
-            pass
-        url = HTMLParser().unescape(msg['Url'])
-        c += ' ' + url
-    return ['[%s]->[%s]: %s' % (sender, receiver, c)]
 
 @bot.msg_register([TEXT, PICTURE, MAP, CARD, SHARING, RECORDING,
     ATTACHMENT, VIDEO, FRIENDS], isFriendChat=True, isGroupChat=True)
@@ -113,7 +65,7 @@ def normal_msg(msg):
     msg['ReceivedTime'] = now
     msg_id = msg['MsgId']
     msg_store[msg_id] = msg
-    normal_msg_process()
+    normal_msg_process(bot, msg)
     clear_timeouted_message()
 
 @bot.msg_register([NOTE], isFriendChat=True, isGroupChat=True)
@@ -136,5 +88,16 @@ def note_msg(msg):
     if old_msg is None:
         return
     msg_send = get_whole_msg(old_msg, download=True)
-    note_msg_process()
+    note_msg_process(bot, msg, old_msg)
     clear_timeouted_message()
+
+def clear_timeouted_message():
+    now = time.time()
+    count = 0
+    for k, v in msg_store.items():
+        if now - v['ReceivedTime'] > timeout:
+            count += 1
+        else:
+            break
+    for i in range(count):
+        item = msg_store.popitem(last=False)
