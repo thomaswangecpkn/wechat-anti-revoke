@@ -1,0 +1,30 @@
+{
+	"data": 
+	{
+		"test": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 3600},
+		"jzsb": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 3600},
+		"智智今天辞职了吗": {"award_score": 50, "next_valid_time": 0, "type": "schedule", "expire_time": "daily"},
+		"土土": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"cc": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"ll": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"择择": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"智智": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"DX": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"饺子": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"毛毛": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"大师": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"慧敏": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"蒜蒜": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"贾总": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"ffnb": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"你": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"不": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"是": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"我": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"的": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"他": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"它": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"她": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600},
+		"了": {"award_score": 10, "next_valid_time": 0, "type": "expire", "expire_time": 600}
+	}
+}
