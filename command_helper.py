@@ -54,7 +54,8 @@ def user_get_bonus(msg):
     return
 
 def admin_change_debug_mode(msg):
-    msgs = msg.split(' ')
+    msg_str = msg['Text']
+    msgs = msg_str.split(' ')
     if msgs[0] != "##DEBUG":
         print("admin_change_debug_mode failed! msgs[0](%s)" % msgs[0])
         return
@@ -67,14 +68,23 @@ def admin_change_debug_mode(msg):
         print("admin_change_debug_mode failed! new_debug(%d)" % new_debug)
         return
     global_params["DEBUG"] = new_debug
-    send_msg_to_myself("更改DEBUG模式[" + orig_debug + "]->[" + new_debug + "]")
+    send_msg_to_myself("更改DEBUG模式[" + str(orig_debug) + "]->[" + str(new_debug) + "]")
     return
     
 def admin_add_key_word(msg):
-    msgs = msg.split(' ')
+    # ##ADDKEY KEYWORD SCORE EXPIRE_TIME
+    msg_str = msg['Text']
+    msgs = msg_str.split(' ')
     if msgs[0] != "##ADDKEY":
         return
-    
+    if len(msgs) != 4:
+        return
+    keyword = msgs[1]
+    score = int(msgs[2])
+    expire_time = int(msgs[3])
+    add_keyword(keyword, score, expire_time)
+    send_msg_to_myself("增加关键词" + keyword + " " + str(score) + " " + str(expire_time))
+    return
 
 command_dict = {
     "#帮助" : user_get_helper,
