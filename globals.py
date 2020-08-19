@@ -5,9 +5,6 @@ import collections
 
 import itchat
 
-VERSION = "V3.0.1"
-DEBUG = 1
-
 bot = itchat.new_instance()
 
 global_params = {

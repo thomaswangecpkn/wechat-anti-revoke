@@ -102,9 +102,15 @@ def pay_score(sender, pay_score):
     if user_score < pay_score:
         return False
     global_params["ranking_dict"][sender] -= pay_score
+    save_json_to_file(ranking_file_path_name, global_params["ranking_dict"])
     return True
 
-
+def add_keyword(key, score, expire_time):
+    global_params["keywords_dict"]["data"][key]["award_score"] = score
+    global_params["keywords_dict"]["data"][key]["expire_time"] = expire_time
+    global_params["keywords_dict"]["data"][key]["type"] = "expire"
+    global_params["keywords_dict"]["data"][key]["next_valid_time"] = 0
+    save_json_to_file(keyword_award_file_path_name, global_params["keywords_dict"])
 
 
     

@@ -41,13 +41,18 @@ def module_msg_box_init():
             break
         global_params["admin_user_init_name"] = input("admin name:")
 
+def time_thread_keeping_login():
+    bot.get_contact()
+    t = threading.Timer(300, time_thread_keeping_login)
+    t.start()
+        
 def module_msg_box_run():
+    time_thread_keeping_login()
     bot.run()
-    #threading.Thread(target = bot.run).start()
 
 def normal_msg_process(bot, msg):
     if (msg['FromUserName'] == global_params["admin_user_username"] and msg['ToUserName'] == global_params["admin_user_username"]) or \
-       (msg['FromUserName'] == global_params["cbyl_group_username"]):
+       (msg['FromUserName'] == global_params["cbyl_group_username"] and msg['ActualNickName'] != global_params["admin_user_init_name"]):
         if command_helper_normal_msg_process(msg):
             return True
         if keyword_award_normal_msg_process(msg):
