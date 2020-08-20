@@ -129,6 +129,8 @@ def pay_score(sender, pay_score):
     return True
 
 def take_score(sender, score_taken):
+    if sender not in global_params["ranking_dict"].keys():
+        global_params["ranking_dict"][sender] = 0
     global_params["ranking_dict"][sender] -= score_taken
     save_json_to_file(ranking_file_path_name, global_params["ranking_dict"])
     return
