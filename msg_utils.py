@@ -7,6 +7,7 @@ from html.parser import HTMLParser
 
 from globals import *
 
+sending_type = {'Picture': 'img', 'Video': 'vid'}
 nickname = ''
 
 def get_sender_receiver(msg):
