@@ -4,7 +4,10 @@
 from globals import *
 from msg_utils import *
 from anti_revoke import get_dpl_last_revoke, get_cbyl_last_revoke, open_dpl_revoke_5days, open_dpl_revoke_30days
-from keyword_award import get_score, pay_score
+from keyword_award import get_score, pay_score, add_keyword
+
+DEFAULT_SCORE = 10
+DEFAULT_EXPIRE_TIME = 3600
 
 def user_get_helper(msg):
     send_msg = "防饺子撤回神器" + global_params["VERSION"] + ", 使用方法\n" \
@@ -75,13 +78,22 @@ def admin_add_key_word(msg):
     # ##ADDKEY KEYWORD SCORE EXPIRE_TIME
     msg_str = msg['Text']
     msgs = msg_str.split(' ')
-    if msgs[0] != "##ADDKEY":
+    keyword = ""
+    score = DEFAULT_SCORE
+    expire_time = DEFAULT_EXPIRE_TIME
+    
+    if msgs[0] != "##AK":
+        print("admin_add_key_word failed! msgs[0](%s)" % msgs[0])
         return
-    if len(msgs) != 4:
+    if len(msgs) < 1:
+        print("admin_add_key_word failed! msglen(%d)" % len(msgs))
         return
-    keyword = msgs[1]
-    score = int(msgs[2])
-    expire_time = int(msgs[3])
+    if len(msgs) > 1:
+        keyword = msgs[1]
+    if len(msgs) > 2:
+        score = int(msgs[2])
+    if len(msgs) > 3:
+        expire_time = int(msgs[3])
     add_keyword(keyword, score, expire_time)
     send_msg_to_myself("增加关键词" + keyword + " " + str(score) + " " + str(expire_time))
     return
@@ -94,7 +106,7 @@ command_dict = {
 
 admin_command_dict = {
     "##DEBUG" : admin_change_debug_mode,
-    "##ADDKEY" : admin_add_key_word
+    "##AK" : admin_add_key_word
 }
 
 def command_helper_normal_msg_process(msg):
