@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*-encoding:utf-8-*-
 
-import sys, os, time, collections, threading
+import sys, os, time, collections, threading, platform
 
 from html.parser import HTMLParser
 from xml.etree import ElementTree as ETree
@@ -20,13 +20,18 @@ timeout = 600
 sending_type = {'Picture': 'img', 'Video': 'vid'}
 data_path = 'data'
 
+def get_qr_type():
+    if platform.system() == 'Linux':
+        return 2
+    return 1
+
 def module_msg_box_init():
     if not os.path.exists(data_path):
         os.mkdir(data_path)
     # if the QR code doesn't show correctly, you can try to change the value
     # of enableCdmQR to 1 or -1 or -2. It nothing works, you can change it to
     # enableCmdQR=True and a picture will show up.
-    bot.auto_login(hotReload=False, enableCmdQR=1)
+    bot.auto_login(hotReload=False, enableCmdQR=get_qr_type())
     nickname = bot.loginInfo['User']['NickName']
     while 1:
         cbyl_group_instance = bot.search_chatrooms(name=global_params["cbyl_group_init_name"])

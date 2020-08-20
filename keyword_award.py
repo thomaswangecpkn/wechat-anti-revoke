@@ -53,7 +53,7 @@ def get_punish_msg(sender, score_taken):
         return None
     if sender not in global_params["ranking_dict"].keys():
         return None
-    send_msg = "[" + sender + "]在群聊中击中了防刷屏保护, 扣除" + str(score_taken) + "积分, 当前积分:" +  str(global_params["ranking_dict"][sender
+    send_msg = "[" + sender + "]在群聊中击中了防刷屏保护, 扣除" + str(score_taken) + "积分, 当前积分:" +  str(global_params["ranking_dict"][sender])
     return send_msg
 
 def search_keyword_in_msg(msg_str):
@@ -105,7 +105,7 @@ def keyword_award_normal_msg_process(msg):
     if abuse_punish > 0:
         sender, receiver = get_sender_receiver(msg)
         take_score(sender, abuse_punish)
-        broadcast_msg(get_punish_msg(sender, abuse_punish)
+        broadcast_msg(get_punish_msg(sender, abuse_punish))
         return True
     key = search_keyword_in_msg(msg_str)
     if key:
