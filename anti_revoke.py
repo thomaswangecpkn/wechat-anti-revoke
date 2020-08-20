@@ -42,12 +42,14 @@ def open_dpl_revoke_5days(msg):
     cur_time = time.time()
     add_time = 5 * 24 * 60 * 60
     set_anti_revoke_status(max(global_params["anti_revoke_status"]["expire_time"], cur_time) + add_time)
-    msg_send = "·À½È×Ó³·»ØÉñÆ÷ÒÑ¿ªÆô, ÓĞĞ§ÆÚÖÁ" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(global_params["anti_revoke_status"]["expire_time"]))
+    msg_send = "é˜²é¥ºå­æ’¤å›ç¥å™¨å·²å¼€å¯, æœ‰æ•ˆæœŸè‡³" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(global_params["anti_revoke_status"]["expire_time"]))
+    broadcast_msg(msg_send)
     return
     
 def open_dpl_revoke_30days(msg):
     cur_time = time.time()
     add_time = 30 * 24 * 60 * 60
     set_anti_revoke_status(max(global_params["anti_revoke_status"]["expire_time"], cur_time) + add_time)
-    msg_send = "·À½È×Ó³·»ØÉñÆ÷ÒÑ¿ªÆô, ÓĞĞ§ÆÚÖÁ" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(global_params["anti_revoke_status"]["expire_time"]))
+    msg_send = "é˜²é¥ºå­æ’¤å›ç¥å™¨å·²å¼€å¯, æœ‰æ•ˆæœŸè‡³" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(global_params["anti_revoke_status"]["expire_time"]))
+    broadcast_msg(msg_send)
     return
