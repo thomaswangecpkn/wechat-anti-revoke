@@ -46,7 +46,15 @@ def get_next_valid_time(key):
         return get_next_day_time(cur_time)
     else:
         print("get_next_valid_time failed! inavlid key(%s) type(%s)" % (key, global_params["keywords_dict"]["data"][key]["type"]))
-        return next_time
+        return next_time  
+
+def get_punish_msg(sender, score_taken):
+    if key not in global_params["keywords_dict"]["data"].keys():
+        return None
+    if sender not in global_params["ranking_dict"].keys():
+        return None
+    send_msg = "[" + sender + "]在群聊中击中了防刷屏保护, 扣除" + str(score_taken) + "积分, 当前积分:" +  str(global_params["ranking_dict"][sender
+    return send_msg
 
 def search_keyword_in_msg(msg_str):
     for key in global_params["keywords_dict"]["data"].keys():
@@ -56,14 +64,23 @@ def search_keyword_in_msg(msg_str):
                 return key
     return None
 
+def check_if_abuse(msg_str):
+    match_count = 0
+    for key in global_params["keywords_dict"]["data"].keys():
+        if key in msg_str:
+            match_count += 1
+    if match_count >= 3:
+        return match_count
+    return 0
+    
 def get_award_msg(sender, key):
     if key not in global_params["keywords_dict"]["data"].keys():
         return None
     if sender not in global_params["ranking_dict"].keys():
         return None
     send_msg = "[" + sender + "]在群聊中击中了关键字[" + key + "], 获得" + str(global_params["keywords_dict"]["data"][key]["award_score"]) + "积分, 当前积分:" + str(global_params["ranking_dict"][sender])
-    return send_msg
-
+    return send_msg    
+    
 def add_score(sender, key):
     if key not in global_params["keywords_dict"]["data"].keys():
         return None
@@ -84,6 +101,12 @@ def keyword_award_normal_msg_process(msg):
     if len(msg['FileName']) > 0 and len(msg['Url']) == 0:
         return False
     msg_str = msg['Text']
+    abuse_punish = check_if_abuse(msg_str)
+    if abuse_punish > 0:
+        sender, receiver = get_sender_receiver(msg)
+        take_score(sender, abuse_punish)
+        broadcast_msg(get_punish_msg(sender, abuse_punish)
+        return True
     key = search_keyword_in_msg(msg_str)
     if key:
         sender, receiver = get_sender_receiver(msg)
@@ -105,6 +128,11 @@ def pay_score(sender, pay_score):
     save_json_to_file(ranking_file_path_name, global_params["ranking_dict"])
     return True
 
+def take_score(sender, score_taken):
+    global_params["ranking_dict"][sender] -= score_taken
+    save_json_to_file(ranking_file_path_name, global_params["ranking_dict"])
+    return
+    
 def add_keyword(key, score=10, expire_time=3600):
     global_params["keywords_dict"]["data"][key] = dict()
     global_params["keywords_dict"]["data"][key]["award_score"] = score
@@ -112,6 +140,5 @@ def add_keyword(key, score=10, expire_time=3600):
     global_params["keywords_dict"]["data"][key]["type"] = "expire"
     global_params["keywords_dict"]["data"][key]["next_valid_time"] = 0
     save_json_to_file(keyword_award_file_path_name, global_params["keywords_dict"])
-
 
     

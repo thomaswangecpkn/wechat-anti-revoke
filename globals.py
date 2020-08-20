@@ -2,8 +2,9 @@
 # -*-encoding:utf-8-*-
 
 import collections
-
 import itchat
+
+from db_utils import *
 
 bot = itchat.new_instance()
 
@@ -26,7 +27,7 @@ global_params = {
 }
 
 def module_globals_init():
-    global_params["anti_revoke_status"] = load_json_from_file(globals_file_name)
+    global_params["anti_revoke_status"] = load_json_from_file(globals_file_path_name)
 
 def set_anti_revoke_status(expire_time):
     global_params["anti_revoke_status"]["expire_time"] = expire_time

@@ -14,8 +14,6 @@ def module_anti_revoke_init():
 def anti_revoke_note_msg_process(bot, msg, old_msg):
     msg_send = get_whole_msg(old_msg, download=True)
     for m in msg_send:
-        send_msg_to_myself(m, toUserName='filehelper')
-    for m in msg_send:
         send_msg_to_myself(m)
     if msg['FromUserName'] == global_params["cbyl_group_username"]:
         global_params["cbyl_last_revoke"] = old_msg
