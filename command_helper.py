@@ -49,7 +49,7 @@ def user_get_bonus(msg):
     sender, receiver = get_sender_receiver(msg)
     score = get_score(sender)
     if not pay_score(sender, bonus_dict[bonusIdx]["cost"]):
-        send_msg = "积分不足! 功能[" + str(bonusIdx) + "]需要" + bonus_dict[bonusIdx]["cost"] + "分, [" + sender + "]当前积分:" + str(score)
+        send_msg = "积分不足! 功能[" + str(bonusIdx) + "]需要" + str(bonus_dict[bonusIdx]["cost"]) + "分, [" + sender + "]当前积分:" + str(score)
     else:
         bonus_dict[bonusIdx]["func"]()
         send_msg = "[" + sender + "]兑换功能[" + str(bonusIdx) + "]成功! 当前积分:" + str(score)

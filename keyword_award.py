@@ -106,6 +106,7 @@ def pay_score(sender, pay_score):
     return True
 
 def add_keyword(key, score=10, expire_time=3600):
+    global_params["keywords_dict"]["data"][key] = dict()
     global_params["keywords_dict"]["data"][key]["award_score"] = score
     global_params["keywords_dict"]["data"][key]["expire_time"] = expire_time
     global_params["keywords_dict"]["data"][key]["type"] = "expire"
