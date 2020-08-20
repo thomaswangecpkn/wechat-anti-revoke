@@ -41,11 +41,13 @@ def get_cbyl_last_revoke(msg):
 def open_dpl_revoke_5days(msg):
     cur_time = time.time()
     add_time = 5 * 24 * 60 * 60
-    global_params["anti_revoke_status"]["expire_time"] = max(global_params["anti_revoke_status"]["expire_time"], cur_time) + add_time
+    set_anti_revoke_status(max(global_params["anti_revoke_status"]["expire_time"], cur_time) + add_time)
+    msg_send = "防饺子撤回神器已开启, 有效期至" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(global_params["anti_revoke_status"]["expire_time"]))
     return
     
 def open_dpl_revoke_30days(msg):
     cur_time = time.time()
     add_time = 30 * 24 * 60 * 60
-    global_params["anti_revoke_status"]["expire_time"] = max(global_params["anti_revoke_status"]["expire_time"], cur_time) + add_time
+    set_anti_revoke_status(max(global_params["anti_revoke_status"]["expire_time"], cur_time) + add_time)
+    msg_send = "防饺子撤回神器已开启, 有效期至" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(global_params["anti_revoke_status"]["expire_time"]))
     return

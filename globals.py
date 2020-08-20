@@ -7,6 +7,10 @@ import itchat
 
 bot = itchat.new_instance()
 
+data_path = 'data'
+globals_file_name = "globals.json"
+globals_file_path_name = data_path + "/" + globals_file_name
+
 global_params = {
     "DEBUG": 1,
     "VERSION": "V3.0.1",
@@ -21,4 +25,9 @@ global_params = {
     "dpl_last_revoke": None,
 }
 
+def module_globals_init():
+    global_params["anti_revoke_status"] = load_json_from_file(globals_file_name)
 
+def set_anti_revoke_status(expire_time):
+    global_params["anti_revoke_status"]["expire_time"] = expire_time
+    save_json_to_file(globals_file_path_name, global_params["anti_revoke_status"])
