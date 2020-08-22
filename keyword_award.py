@@ -136,21 +136,13 @@ def add_score_by_key(sender, key):
         global_params["ranking_dict"][sender] = {}
     if "score" not in global_params["ranking_dict"][sender].keys():
         global_params["ranking_dict"][sender]["score"] = 0
-    global_params["ranking_dict"][sender]["score"] = global_params["keywords_dict"][key]["award_score"]
+    global_params["ranking_dict"][sender]["score"] += global_params["keywords_dict"][key]["award_score"]
     global_params["keywords_dict"][key]["next_valid_time"] = get_next_valid_time(key)
     add_hit_time(sender)
     save_json_to_file(keyword_award_file_path_name, global_params["keywords_dict"])
     save_json_to_file(ranking_file_path_name, global_params["ranking_dict"])
     return None
 
-def add_score_direct(sender, score):
-    if sender not in global_params["ranking_dict"].keys():
-        global_params["ranking_dict"][sender] = {}
-    if "score" not in global_params["ranking_dict"][sender].keys():
-        global_params["ranking_dict"][sender]["score"] = 0
-    global_params["ranking_dict"][sender]["score"] += score
-    save_json_to_file(ranking_file_path_name, global_params["ranking_dict"])
-    return
 
 def take_score(sender, score_taken):
     if sender not in global_params["ranking_dict"].keys():
@@ -232,4 +224,12 @@ def add_keyword(key, score=10, expire_time=3600):
     global_params["keywords_dict"][key]["next_valid_time"] = 0
     save_json_to_file(keyword_award_file_path_name, global_params["keywords_dict"])
 
-    
+def add_score_direct(sender, score):
+    if sender not in global_params["ranking_dict"].keys():
+        global_params["ranking_dict"][sender] = {}
+    if "score" not in global_params["ranking_dict"][sender].keys():
+        global_params["ranking_dict"][sender]["score"] = 0
+    global_params["ranking_dict"][sender]["score"] += score
+    save_json_to_file(ranking_file_path_name, global_params["ranking_dict"])
+    return global_params["ranking_dict"][sender]["score"]
+

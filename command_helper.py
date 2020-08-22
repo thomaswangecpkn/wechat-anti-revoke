@@ -110,8 +110,8 @@ def admin_add_score(msg):
         return
     sender = msgs[1]
     score = int(msgs[2])
-    add_score_direct(sender, score)
-    send_msg_to_myself("为" + sender + "增加" + str(score) + "分")
+    cur_score = add_score_direct(sender, score)
+    send_msg_to_myself("为" + sender + "增加" + str(score) + "分, 当前积分: " str(cur_score))
     return
 
 command_dict = {
