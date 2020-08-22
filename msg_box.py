@@ -18,7 +18,6 @@ from command_helper import command_helper_normal_msg_process
 msg_store = collections.OrderedDict()
 timeout = 600
 sending_type = {'Picture': 'img', 'Video': 'vid'}
-data_path = 'data'
 
 def get_qr_type():
     if platform.system() == 'Linux':
@@ -26,8 +25,6 @@ def get_qr_type():
     return 1
 
 def module_msg_box_init():
-    if not os.path.exists(data_path):
-        os.mkdir(data_path)
     # if the QR code doesn't show correctly, you can try to change the value
     # of enableCdmQR to 1 or -1 or -2. It nothing works, you can change it to
     # enableCmdQR=True and a picture will show up.

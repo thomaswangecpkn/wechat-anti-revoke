@@ -1,34 +1,55 @@
 #!/usr/bin/env python
 # -*-encoding:utf-8-*-
 
-import collections
+import os, collections, platform
 import itchat
 
 from db_utils import *
 
 bot = itchat.new_instance()
 
-data_path = 'data'
-globals_file_name = "globals.json"
-globals_file_path_name = data_path + "/" + globals_file_name
-
 global_params = {
     "DEBUG": 1,
-    "VERSION": "V3.0.1",
+    "VERSION": "V3.0.2",
+    "data_path": "/home/data",
+    "src_data_path": "data",
     "cbyl_group_init_name": "北京的咕咕咕咕菇",
     "cbyl_group_username": None,
     "admin_user_init_name": "逗你玩",
     "admin_user_username": None,
-    "keywords_dict": {},
-    "ranking_dict": {},
-    "anti_revoke_status": { "expire_time": 0 },
+    "keywords_dict": None,
+    "ranking_dict": None,
+    "anti_revoke_status": None,
     "cbyl_last_revoke": None,
     "dpl_last_revoke": None,
 }
 
+globals_file_name = "globals.json"
+globals_file_path_name = global_params["data_path"] + "/" + globals_file_name
+
+def get_data_path():
+    if platform.system() == 'Linux':
+        return "/home/data"
+    return "data"
+
 def module_globals_init():
+    global_params["data_path"] = get_data_path()
+    if not os.path.exists(global_params["data_path"]):
+        os.mkdir(global_params["data_path"])
     global_params["anti_revoke_status"] = load_json_from_file(globals_file_path_name)
+    if type(global_params["anti_revoke_status"]) is not dict or "expire_time" not in global_params["anti_revoke_status"].keys():
+        global_params["anti_revoke_status"] = { "expire_time": 0 }
 
 def set_anti_revoke_status(expire_time):
     global_params["anti_revoke_status"]["expire_time"] = expire_time
     save_json_to_file(globals_file_path_name, global_params["anti_revoke_status"])
+
+def dbg_log(str):
+    if global_params["DEBUG"]:
+        print(str)
+
+def msg_print(str):
+    try:
+        print(str)
+    except Exception as e:
+        dbg_log(e)

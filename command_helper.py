@@ -4,7 +4,7 @@
 from globals import *
 from msg_utils import *
 from anti_revoke import get_dpl_last_revoke, get_cbyl_last_revoke, open_dpl_revoke_5days, open_dpl_revoke_30days
-from keyword_award import get_score, pay_score, add_keyword
+from keyword_award import get_score, pay_score, add_keyword, add_score_direct
 
 DEFAULT_SCORE = 10
 DEFAULT_EXPIRE_TIME = 3600
@@ -60,15 +60,15 @@ def admin_change_debug_mode(msg):
     msg_str = msg['Text']
     msgs = msg_str.split(' ')
     if msgs[0] != "##DEBUG":
-        print("admin_change_debug_mode failed! msgs[0](%s)" % msgs[0])
+        dbg_log("admin_change_debug_mode failed! msgs[0](%s)" % msgs[0])
         return
     if not msgs[1].isnumeric():
-        print("admin_change_debug_mode failed! msgs[1](%s)" % msgs[1])
+        dbg_log("admin_change_debug_mode failed! msgs[1](%s)" % msgs[1])
         return
     orig_debug = global_params["DEBUG"]
     new_debug = int(msgs[1])
     if new_debug != 0 and new_debug != 1:
-        print("admin_change_debug_mode failed! new_debug(%d)" % new_debug)
+        dbg_log("admin_change_debug_mode failed! new_debug(%d)" % new_debug)
         return
     global_params["DEBUG"] = new_debug
     send_msg_to_myself("更改DEBUG模式[" + str(orig_debug) + "]->[" + str(new_debug) + "]")
@@ -83,10 +83,10 @@ def admin_add_key_word(msg):
     expire_time = DEFAULT_EXPIRE_TIME
     
     if msgs[0] != "##AK":
-        print("admin_add_key_word failed! msgs[0](%s)" % msgs[0])
+        dbg_log("admin_add_key_word failed! msgs[0](%s)" % msgs[0])
         return
     if len(msgs) < 1:
-        print("admin_add_key_word failed! msglen(%d)" % len(msgs))
+        dbg_log("admin_add_key_word failed! msglen(%d)" % len(msgs))
         return
     if len(msgs) > 1:
         keyword = msgs[1]
@@ -98,6 +98,22 @@ def admin_add_key_word(msg):
     send_msg_to_myself("增加关键词" + keyword + " " + str(score) + " " + str(expire_time))
     return
 
+def admin_add_score(msg):
+    # ##AS NICKNAME SCORE
+    msg_str = msg['Text']
+    msgs = msg_str.split(' ')
+    if msgs[0] != "##AS":
+        dbg_log("admin_add_score failed! msgs[0](%s)" % msgs[0])
+        return
+    if len(msgs) != 3:
+        dbg_log("admin_add_score failed! msglen(%d)" % len(msgs))
+        return
+    sender = msgs[1]
+    score = int(msgs[2])
+    add_score_direct(sender, score)
+    send_msg_to_myself("为" + sender + "增加" + str(score) + "分")
+    return
+
 command_dict = {
     "#帮助" : user_get_helper,
     "#查询" : user_get_score,
@@ -106,7 +122,8 @@ command_dict = {
 
 admin_command_dict = {
     "##DEBUG" : admin_change_debug_mode,
-    "##AK" : admin_add_key_word
+    "##AK" : admin_add_key_word,
+    "##AS" : admin_add_score
 }
 
 def command_helper_normal_msg_process(msg):

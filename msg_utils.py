@@ -39,14 +39,14 @@ def get_sender_receiver(msg):
 
 def print_msg(msg):
     msg_str = ' '.join(msg)
-    print(msg_str)
+    msg_print(msg_str)
     return msg_str
 
 def get_whole_msg(msg, download=False):
     sender, receiver = get_sender_receiver(msg)
     if len(msg['FileName']) > 0 and len(msg['Url']) == 0:
         if download: # download the file into data_path directory
-            fn = os.path.join(data_path, msg['FileName'])
+            fn = os.path.join(global_params["data_path"], msg['FileName'])
             msg['Text'](fn)
             if os.path.getsize(fn) == 0:
                 return []
