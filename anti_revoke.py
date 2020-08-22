@@ -6,11 +6,6 @@ import time
 from globals import *
 from msg_utils import *
 
-module_anti_revoke_status = 0
-
-def module_anti_revoke_init():
-    module_anti_revoke_status = 1
-
 def anti_revoke_note_msg_process(bot, msg, old_msg):
     msg_send = get_whole_msg(old_msg, download=True)
     for m in msg_send:

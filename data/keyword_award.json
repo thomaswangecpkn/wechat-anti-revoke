@@ -1,1460 +1,1460 @@
 {
-    "崂山": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "龙狙今天降价了": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "赵天一": {
-        "type": "expire",
-        "award_score": 13,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "札幌": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "陈一发儿": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Always with Me": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "厦门": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "台湾": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "智智": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "中法": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "fgnb": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "郑天禹": {
-        "type": "expire",
-        "award_score": 23,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "蝴蝶刀": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "天越亮,夜越黑": {
-        "type": "expire",
-        "award_score": 30,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "小樽": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Wings": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "秋姐": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "北海道": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "峨眉山": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 1599455733.1711426,
-        "expire_time": 2592000
-    },
-    "我怀念的": {
-        "type": "expire",
-        "award_score": 46,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "荒野反叛": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "托尼高": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "第六感": {
-        "type": "expire",
-        "award_score": 8,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "香菇": {
-        "type": "expire",
-        "award_score": -20,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "饺子": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 1601743121.8594253,
-        "expire_time": 2592000
-    },
-    "王尧": {
-        "type": "expire",
-        "award_score": 14,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "成名在望": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "龙船人今天倒闭了": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "龙船人": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "IG": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "张佳择": {
-        "type": "expire",
-        "award_score": 8,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "大运村": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "遇见": {
-        "type": "expire",
-        "award_score": 50,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "相信": {
-        "type": "expire",
-        "award_score": 28,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "可惜不是你": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "贾泽": {
-        "type": "expire",
-        "award_score": 24,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Hatsukoi": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "邓楚翔": {
-        "type": "expire",
-        "award_score": 16,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "老杨": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "支持力": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "克卜勒": {
-        "type": "expire",
-        "award_score": 35,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "陈硕鸣": {
-        "type": "expire",
-        "award_score": 41,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "我也很想他": {
-        "type": "expire",
-        "award_score": 23,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "4294967296": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "我的爱": {
-        "type": "expire",
-        "award_score": 16,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "青岛": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "沙漠骆驼": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "ll": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 1600425761.743523,
-        "expire_time": 2592000
-    },
-    "屋质": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "有氧": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "北京的咕咕咕咕菇": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "未完成": {
-        "type": "expire",
-        "award_score": 9,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "zcl": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Tonight, I Feel Close To You": {
-        "type": "expire",
-        "award_score": 32,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "高队": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "ffnb": {
-        "type": "expire",
-        "award_score": 1,
-        "next_valid_time": 1598105552.819383,
-        "expire_time": 3600
-    },
-    "五月天": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "高宇同": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "成都": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "世说心语": {
-        "type": "expire",
-        "award_score": 5,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "慧敏": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "棱彩": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "龙神": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "三角琴": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "智智今天辞职了吗": {
-        "type": "schedule",
-        "award_score": 50,
-        "next_valid_time": 0,
-        "expire_time": "daily"
-    },
-    "黑心ll": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "女火神之炽焰": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "龙湖": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "突然好想你": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "赵沁兰": {
-        "type": "expire",
-        "award_score": 34,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "王逸飞": {
-        "type": "expire",
-        "award_score": 20,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "李瀚韬": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "梦中的婚礼": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "渐变大理石": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "枪响人亡": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "很好": {
-        "type": "expire",
-        "award_score": 4,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "KTV": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "茶树菇": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "龙骑": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "富丽小区": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "雨天": {
-        "type": "expire",
-        "award_score": 49,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "新垣结衣": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "龙狙": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Summer": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "是时候": {
-        "type": "expire",
-        "award_score": 34,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "龙的传人": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "我不爱": {
-        "type": "expire",
-        "award_score": 3,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "刘梦轩": {
-        "type": "expire",
-        "award_score": 2,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "无限大": {
-        "type": "expire",
-        "award_score": 37,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "黄冬烨": {
-        "type": "expire",
-        "award_score": 33,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "贾总": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "饺子金针菇": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "龙传人": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "The Wind of Life": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "We Will Get There": {
-        "type": "expire",
-        "award_score": 26,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "蓝宝石": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "饺子傻逼": {
-        "type": "expire",
-        "award_score": 1,
-        "next_valid_time": 1601727231.0525897,
-        "expire_time": 3600
-    },
-    "有养": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "洞爷湖": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "懒人便利商店": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "风衣": {
-        "type": "expire",
-        "award_score": 21,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "陈柏安": {
-        "type": "expire",
-        "award_score": 17,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "西安": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "土土": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "爪子刀": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "原点": {
-        "type": "expire",
-        "award_score": 36,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "开箱": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "林俊杰演唱会": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "安宁庄东路": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "开始懂了": {
-        "type": "expire",
-        "award_score": 38,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "cc": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "1024": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "梁静茹演唱会": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "刺刀": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "大师": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "张健乔": {
-        "type": "expire",
-        "award_score": 4,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "首都师大附中": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "65536": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "同类": {
-        "type": "expire",
-        "award_score": 19,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "竹荪": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "胡靖远": {
-        "type": "expire",
-        "award_score": 12,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "登别": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "秦时月": {
-        "type": "expire",
-        "award_score": 31,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "帅锅": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "逃亡": {
-        "type": "expire",
-        "award_score": 1,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "首师附": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "67373": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "李智": {
-        "type": "expire",
-        "award_score": 29,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "那些年": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "李雨菡": {
-        "type": "expire",
-        "award_score": 35,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "toma": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "上林溪": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "咕咕": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "王翰博": {
-        "type": "expire",
-        "award_score": 15,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "十渡": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "史苏平": {
-        "type": "expire",
-        "award_score": 37,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "陆璐": {
-        "type": "expire",
-        "award_score": 36,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "香芋": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "周天钺": {
-        "type": "expire",
-        "award_score": 1,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "王赜": {
-        "type": "expire",
-        "award_score": 3,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "口蘑": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "一样的夏天": {
-        "type": "expire",
-        "award_score": 15,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "函馆": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "挖槽": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Honey Honey": {
-        "type": "expire",
-        "award_score": 18,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "秦皇岛": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "孙燕姿演唱会": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "在,也不见": {
-        "type": "expire",
-        "award_score": 41,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "周杰伦演唱会": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
     "180度": {
-        "type": "expire",
         "award_score": 27,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "大黄": {
+        "expire_time": 2592000,
         "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "毛毛": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "多普勒": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "温泉": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "北航": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Newbee": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "陈奕迅演唱会": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "动楞定理": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "半句再见": {
-        "type": "expire",
-        "award_score": 45,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "longdd": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "东京": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "北洼路": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "蒋恬婧": {
-        "type": "expire",
-        "award_score": 28,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "流浪地图": {
-        "type": "expire",
-        "award_score": 13,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "陈帼豪": {
-        "type": "expire",
-        "award_score": 26,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "邓琪": {
-        "type": "expire",
-        "award_score": 30,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "董子川": {
-        "type": "expire",
-        "award_score": 18,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "宋雅枫": {
-        "type": "expire",
-        "award_score": 40,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "手套": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "欧米伽": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "咕叽咕叽": {
-        "type": "expire",
-        "award_score": 14,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "廖羽婧": {
-        "type": "expire",
-        "award_score": 38,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "刘天飖": {
-        "type": "expire",
-        "award_score": 27,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "蒜蒜": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "响沙湾": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "久石让": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "梦游": {
-        "type": "expire",
-        "award_score": 24,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "6657": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "皇后": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "周骁": {
-        "type": "expire",
-        "award_score": 9,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "陈然": {
-        "type": "expire",
-        "award_score": 32,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "李羽帆": {
-        "type": "expire",
-        "award_score": 6,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "长泽雅美": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "天津": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "少奶奶": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "KAWAI": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "金针菇": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "肉山": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "民生银行": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "蘑菇": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "1048576": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "樱井翔": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "臭袜子": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "没有人的方向": {
-        "type": "expire",
-        "award_score": 25,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "眼泪成诗": {
-        "type": "expire",
-        "award_score": 39,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "零缺点": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "鸽子王": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "第一天": {
-        "type": "expire",
-        "award_score": 22,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "鼓浪屿": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "王昊飞": {
-        "type": "expire",
-        "award_score": 5,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "丁霈霖": {
-        "type": "expire",
-        "award_score": -20,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "香草香草": {
-        "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
-    },
-    "dx": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 1599538324.163808,
-        "expire_time": 2592000
-    },
-    "北戴河": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "咆哮": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "毒龙": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "左丹": {
-        "type": "expire",
-        "award_score": 22,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "卡农": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "年轻无极限": {
-        "type": "expire",
-        "award_score": 6,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "尚好的青春": {
-        "type": "expire",
-        "award_score": 43,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "爱从零开始": {
-        "type": "expire",
-        "award_score": 42,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "时光小偷": {
-        "type": "expire",
-        "award_score": 31,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "易思汇": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "洪大鹏": {
-        "type": "expire",
-        "award_score": 19,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "我古基": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "法国南部": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "我要的幸福": {
-        "type": "expire",
-        "award_score": 17,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "王含博": {
-        "type": "expire",
-        "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "隐形人": {
-        "type": "expire",
-        "award_score": 11,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "The Moment": {
-        "type": "expire",
-        "award_score": 7,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "next_valid_time": 0
     },
     "尹荣格": {
-        "type": "expire",
         "award_score": 39,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "杨晓童": {
+        "expire_time": 2592000,
         "type": "expire",
-        "award_score": 21,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "next_valid_time": 0
     },
-    "天天年年": {
+    "尚好的青春": {
+        "award_score": 43,
+        "expire_time": 2592000,
         "type": "expire",
-        "award_score": 40,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "next_valid_time": 0
     },
-    "逆光": {
-        "type": "expire",
-        "award_score": 47,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Leave": {
-        "type": "expire",
-        "award_score": 12,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "择择": {
-        "type": "expire",
+    "樱井翔": {
         "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "愚人的国度": {
+        "expire_time": 2592000,
         "type": "expire",
-        "award_score": 29,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "next_valid_time": 0
     },
-    "华为": {
+    "原点": {
+        "award_score": 36,
+        "expire_time": 2592000,
         "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙的传人": {
         "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "jzsb": {
+        "expire_time": 2592000,
         "type": "expire",
-        "award_score": 1,
-        "next_valid_time": 1600801664.392243,
-        "expire_time": 3600
-    },
-    "冯叶": {
-        "type": "expire",
-        "award_score": 25,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "修鹏远": {
-        "type": "expire",
-        "award_score": 7,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "next_valid_time": 0
     },
     "难得一见": {
-        "type": "expire",
         "award_score": 2,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Steinway": {
+        "expire_time": 2592000,
         "type": "expire",
+        "next_valid_time": 0
+    },
+    "克卜勒": {
+        "award_score": 35,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "新垣结衣": {
         "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
     },
     "内蒙": {
-        "type": "expire",
         "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "平菇": {
+        "expire_time": 2592000,
         "type": "expire",
-        "award_score": -10,
-        "next_valid_time": 0,
-        "expire_time": 86400
+        "next_valid_time": 0
+    },
+    "易思汇": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "隐形人": {
+        "award_score": 11,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "毛毛": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "丁霈霖": {
+        "award_score": -20,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "大黄": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "风衣": {
+        "award_score": 21,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "北京的咕咕咕咕菇": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "陈硕鸣": {
+        "award_score": 41,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "孙燕姿演唱会": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Tonight, I Feel Close To You": {
+        "award_score": 32,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "世说心语": {
+        "award_score": 5,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "皇后": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "峨眉山": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 1599455733.1711426
+    },
+    "择择": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "北海道": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "4294967296": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "王逸飞": {
+        "award_score": 20,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "西安": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "相信": {
+        "award_score": 28,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "周骁": {
+        "award_score": 9,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "陈柏安": {
+        "award_score": 17,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
     },
     "折刀": {
-        "type": "expire",
         "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "我不爱": {
+        "award_score": 3,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "梦中的婚礼": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "开箱": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "没有人的方向": {
+        "award_score": 25,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "黑心ll": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "天津": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "可惜不是你": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "贾泽": {
+        "award_score": 24,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "饺子傻逼": {
+        "award_score": 1,
+        "expire_time": 3600,
+        "type": "expire",
+        "next_valid_time": 1601727231.0525897
+    },
+    "The Wind of Life": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "蒋恬婧": {
+        "award_score": 28,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "久石让": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "无限大": {
+        "award_score": 37,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "屋质": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "时光小偷": {
+        "award_score": 31,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "是时候": {
+        "award_score": 34,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "longdd": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "大师": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "多普勒": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "沙漠骆驼": {
+        "award_score": -10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "香草香草": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "三角琴": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "高队": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙神": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "蝴蝶刀": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
     },
     "张清源": {
-        "type": "expire",
         "award_score": 11,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙狙": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "未完成": {
+        "award_score": 9,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "支持力": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "东京": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "左丹": {
+        "award_score": 22,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "欧米伽": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "北洼路": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "荒野反叛": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Steinway": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "天越亮,夜越黑": {
+        "award_score": 30,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "遇见": {
+        "award_score": 50,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "dx": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 1599538324.163808
+    },
+    "林俊杰演唱会": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "陈奕迅演唱会": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "肉山": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "蓝宝石": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "首都师大附中": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "第一天": {
+        "award_score": 22,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "十渡": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "雨天": {
+        "award_score": 49,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "The Moment": {
+        "award_score": 7,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "咕咕": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "北戴河": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "突然好想你": {
+        "award_score": -10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "青岛": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "65536": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "北航": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "托尼高": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "慧敏": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "长泽雅美": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "老杨": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "陆璐": {
+        "award_score": 36,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "刘梦轩": {
+        "award_score": 2,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "李瀚韬": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "金针菇": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "蒜蒜": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "登别": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "梁静茹演唱会": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙狙今天降价了": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙传人": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "五月天": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "胡靖远": {
+        "award_score": 12,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "智智": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "赵沁兰": {
+        "award_score": 34,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "函馆": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "上林溪": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙船人今天倒闭了": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "咆哮": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "我要的幸福": {
+        "award_score": 17,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "民生银行": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "王赜": {
+        "award_score": 3,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "竹荪": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
     },
     "虎牙": {
-        "type": "expire",
         "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
-    },
-    "Silent All These Years": {
+        "expire_time": 2592000,
         "type": "expire",
-        "award_score": 20,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "next_valid_time": 0
     },
-    "天黑黑": {
+    "董子川": {
+        "award_score": 18,
+        "expire_time": 2592000,
         "type": "expire",
-        "award_score": 48,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "next_valid_time": 0
+    },
+    "天天年年": {
+        "award_score": 40,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "愚人的国度": {
+        "award_score": 29,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "我也很想他": {
+        "award_score": 23,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "张健乔": {
+        "award_score": 4,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "1024": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "陈帼豪": {
+        "award_score": 26,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "大运村": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "王含博": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "枪响人亡": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "毒龙": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "少奶奶": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "zcl": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "智智今天辞职了吗": {
+        "award_score": 50,
+        "expire_time": "daily",
+        "type": "schedule",
+        "next_valid_time": 0
+    },
+    "有养": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "We Will Get There": {
+        "award_score": 26,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "高宇同": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "挖槽": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "华为": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "眼泪成诗": {
+        "award_score": 39,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "史苏平": {
+        "award_score": 37,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "鼓浪屿": {
+        "award_score": -10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
     },
     "九寨沟": {
-        "type": "expire",
         "award_score": 10,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "秦皇岛": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "法国南部": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "贾总": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "黄冬烨": {
+        "award_score": 33,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "邓楚翔": {
+        "award_score": 16,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "卡农": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "富丽小区": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "平菇": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "秋姐": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "廖羽婧": {
+        "award_score": 38,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
     },
     "当冬夜渐暖": {
-        "type": "expire",
         "award_score": 33,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "崂山": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "李智": {
+        "award_score": 29,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "响沙湾": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "秦时月": {
+        "award_score": 31,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "IG": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "王尧": {
+        "award_score": 14,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "爱从零开始": {
+        "award_score": 42,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "王昊飞": {
+        "award_score": 5,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "李羽帆": {
+        "award_score": 6,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "修鹏远": {
+        "award_score": 7,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "fgnb": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "天黑黑": {
+        "award_score": 48,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "我的爱": {
+        "award_score": 16,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "帅锅": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "口蘑": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
     },
     "明天的记忆": {
-        "type": "expire",
         "award_score": 44,
-        "next_valid_time": 0,
-        "expire_time": 2592000
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "台湾": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "KTV": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "茶树菇": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "咕叽咕叽": {
+        "award_score": 14,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "67373": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "成名在望": {
+        "award_score": -10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Newbee": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Silent All These Years": {
+        "award_score": 20,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "女火神之炽焰": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "渐变大理石": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Always with Me": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "厦门": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "6657": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "年轻无极限": {
+        "award_score": 6,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "陈一发儿": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "ll": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 1600425761.743523
+    },
+    "陈然": {
+        "award_score": 32,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "王翰博": {
+        "award_score": 15,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "手套": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "杨晓童": {
+        "award_score": 21,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "有氧": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "周天钺": {
+        "award_score": 1,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Summer": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "冯叶": {
+        "award_score": 25,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "鸽子王": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "札幌": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Leave": {
+        "award_score": 12,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Hatsukoi": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "流浪地图": {
+        "award_score": 13,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "ffnb": {
+        "award_score": 1,
+        "expire_time": 3600,
+        "type": "expire",
+        "next_valid_time": 1598105552.819383
+    },
+    "刺刀": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "蘑菇": {
+        "award_score": -10,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "洞爷湖": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "同类": {
+        "award_score": 19,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "梦游": {
+        "award_score": 24,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "饺子金针菇": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "开始懂了": {
+        "award_score": 38,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "KAWAI": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "宋雅枫": {
+        "award_score": 40,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "爪子刀": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "饺子": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 1601743121.8594253
+    },
+    "刘天飖": {
+        "award_score": 27,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "小樽": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "香菇": {
+        "award_score": -20,
+        "expire_time": 86400,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "张佳择": {
+        "award_score": 8,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "洪大鹏": {
+        "award_score": 19,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "一样的夏天": {
+        "award_score": 15,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "Honey Honey": {
+        "award_score": 18,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "jzsb": {
+        "award_score": 1,
+        "expire_time": 3600,
+        "type": "expire",
+        "next_valid_time": 1600801664.392243
+    },
+    "Wings": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "郑天禹": {
+        "award_score": 23,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "动楞定理": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙船人": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "中法": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "我古基": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "赵天一": {
+        "award_score": 13,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "toma": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "逃亡": {
+        "award_score": 1,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "周杰伦演唱会": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "逆光": {
+        "award_score": 47,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "李雨菡": {
+        "award_score": 35,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "邓琪": {
+        "award_score": 30,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "零缺点": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙骑": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "那些年": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "龙湖": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "首师附": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "臭袜子": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "懒人便利商店": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "温泉": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "1048576": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "成都": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "土土": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "第六感": {
+        "award_score": 8,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "很好": {
+        "award_score": 4,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "香芋": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "安宁庄东路": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "我怀念的": {
+        "award_score": 46,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "在,也不见": {
+        "award_score": 41,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "棱彩": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "半句再见": {
+        "award_score": 45,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
+    },
+    "cc": {
+        "award_score": 10,
+        "expire_time": 2592000,
+        "type": "expire",
+        "next_valid_time": 0
     }
 }
