@@ -1,0 +1,97 @@
+{
+	"data_types":
+	{
+		"schedule_daily_50": { "expire_type": "schedule", "expire_time": "daily", "award_type": "fix", "award_score": 50 },
+		"schedule_daily_aug_1_1": { "expire_type": "schedule", "expire_time": "daily", "award_type": "daily_aug", "start_score": 1, "step_score": 1, "start_date": "2020-08-10" },
+		
+		"expire_monthly_10": { "expire_type": "expire", "expire_time": 2592000, "award_type": "fix", "award_score": 10 },
+		"expire_hourly_1": { "expire_type": "expire", "expire_time": 3600, "award_type": "fix", "award_score": 1 },
+		
+		"expire_daily_punish_20": { "expire_type": "expire", "expire_time": 86400, "award_type": "fix", "award_score": -20 },
+		"expire_daily_punish_10": { "expire_type": "expire", "expire_time": 86400, "award_type": "fix", "award_score": -10 },
+		"expire_monthly_punish_10": { "expire_type": "expire", "expire_time": 2592000, "award_type": "fix", "award_score": -10 },
+		
+		"expire_monthly_dec_50_1": { "expire_type": "expire", "expire_time": 2592000, "award_type": "aug", "start_score": 50, "step_score": -1},
+		"expire_monthly_asc_1_1": { "expire_type": "expire", "expire_time": 2592000, "award_type": "aug", "start_score": 1, "step_score": 1}
+	},
+
+	"data_sets":
+	[
+		{ "data_type": "schedule_daily_50", "key_words":
+			[
+				"智智今天辞职了吗"
+			]
+		},
+		
+		{ "data_type": "expire_monthly_10", "key_words":
+			[
+				"土土","cc","ll", "择择","智智","dx","饺子","毛毛","大师","慧敏","蒜蒜","贾总",
+				"北京的咕咕咕咕菇","咕咕","鸽子王","黑心ll","饺子金针菇","王含博",
+				"帅锅","有养","有氧","樱井翔","toma","懒人便利商店","香芋","臭袜子",
+				"高宇同","高队","易思汇","民生银行","少奶奶","托尼高",
+				"龙船人","龙狙","龙传人","龙的传人","龙神","longdd","龙骑","龙湖","毒龙",
+				"fgnb","法国南部","肉山","Wings","Newbee","IG","陈一发儿",
+				"6657","67373","1024","1048576","65536","4294967296",
+				"爪子刀","蝴蝶刀","刺刀","蓝宝石","多普勒","枪响人亡","手套","棱彩","开箱","渐变大理石","折刀","虎牙","咆哮","荒野反叛","欧米伽","皇后","女火神之炽焰",
+				"西安","台湾","青岛","天津","成都","九寨沟","峨眉山","北戴河","秦皇岛","崂山","厦门","内蒙","响沙湾","北海道","东京","函馆","札幌","登别","洞爷湖","小樽","十渡",
+				"新垣结衣","长泽雅美",
+				"首师附","首都师大附中","老杨","大黄","挖槽","我古基","屋质","动楞定理","zcl","支持力","秋姐",
+				"北航","大运村","中法","华为","温泉","上林溪","安宁庄东路","北洼路","富丽小区",
+				"孙燕姿演唱会","林俊杰演唱会","周杰伦演唱会","梁静茹演唱会","陈奕迅演唱会","KTV",
+				"KAWAI","Steinway","三角琴","可惜不是你","那些年","Summer","梦中的婚礼","卡农","Always with Me","The Wind of Life","Hatsukoi","久石让"
+			]
+		},
+		
+		{ "data_type": "expire_hourly_1", "key_words":
+			[
+				"ffnb","jzsb","饺子傻逼"
+			]
+		},
+		
+		{ "data_type": "expire_daily_punish_20", "key_words":
+			[
+				"香菇","丁霈霖"
+			]
+		},
+		
+		{ "data_type": "expire_daily_punish_10", "key_words":
+			[
+				"蘑菇","金针菇","平菇","茶树菇","口蘑","竹荪","五月天","香草香草",
+				"龙船人今天倒闭了","龙狙今天降价了"
+			]
+		},
+		
+		{ "data_type": "expire_monthly_punish_10", "key_words":
+			[
+				"鼓浪屿","突然好想你","成名在望","沙漠骆驼"
+			]
+		},
+		
+		{ "data_type": "expire_monthly_dec_50_1", "key_words":
+			[
+				"遇见","雨天","天黑黑","逆光","我怀念的","半句再见","明天的记忆","尚好的青春","爱从零开始","在,也不见",
+				"天天年年","眼泪成诗","开始懂了","无限大","原点","克卜勒","是时候","当冬夜渐暖","Tonight, I Feel Close To You","时光小偷",
+				"天越亮,夜越黑","愚人的国度","相信","180度","We Will Get There","没有人的方向","梦游","我也很想他","第一天","风衣",
+				"Silent All These Years","同类","Honey Honey","我要的幸福","我的爱","一样的夏天","咕叽咕叽","流浪地图","Leave","隐形人",
+				"零缺点","未完成","第六感","The Moment","年轻无极限","世说心语","很好","我不爱","难得一见","逃亡"
+			]
+		},
+		
+		{ "data_type": "expire_monthly_asc_1_1", "key_words":
+			[
+				"周天钺","刘梦轩","王赜","张健乔","王昊飞","李羽帆","修鹏远","张佳择","周骁","李瀚韬",
+				"张清源","胡靖远","赵天一","王尧","王翰博","邓楚翔","陈柏安","董子川","洪大鹏","王逸飞",
+				"杨晓童","左丹","郑天禹","贾泽","冯叶","陈帼豪","刘天飖","蒋恬婧","李智","邓琪",
+				"秦时月","陈然","黄冬烨","赵沁兰","李雨菡","陆璐","史苏平","廖羽婧","尹荣格","宋雅枫","陈硕鸣"
+			]
+		}
+	],
+	
+	"data":
+	{
+		"王若一": {"award_score": 10, "type": "expire", "expire_time": 2592000},
+		"刘畅": {"award_score": 35, "type": "expire", "expire_time": 2592000},
+		"董潇": {"award_score": 6, "type": "expire", "expire_time": 2592000},
+		"晓龙哥": {"award_score": 100, "type": "expire", "expire_time": 31104000}
+	}
+}
