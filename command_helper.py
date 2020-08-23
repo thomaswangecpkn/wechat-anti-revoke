@@ -4,10 +4,9 @@
 from globals import *
 from msg_utils import *
 from anti_revoke import get_dpl_last_revoke, get_cbyl_last_revoke, open_dpl_revoke_5days, open_dpl_revoke_30days
-from keyword_award import get_score, pay_score, add_keyword, add_score_direct
+from keyword_award import get_score, pay_score, add_keyword, add_score_direct, default_expire_time
 
 DEFAULT_SCORE = 10
-DEFAULT_EXPIRE_TIME = 3600
 
 def user_get_helper(msg):
     send_msg = "防饺子撤回神器" + global_params["VERSION"] + ", 使用方法\n" \
@@ -80,7 +79,7 @@ def admin_add_key_word(msg):
     msgs = msg_str.split(' ')
     keyword = ""
     score = DEFAULT_SCORE
-    expire_time = DEFAULT_EXPIRE_TIME
+    expire_time = default_expire_time
     
     if msgs[0] != "##AK":
         dbg_log("admin_add_key_word failed! msgs[0](%s)" % msgs[0])
@@ -111,7 +110,7 @@ def admin_add_score(msg):
     sender = msgs[1]
     score = int(msgs[2])
     cur_score = add_score_direct(sender, score)
-    send_msg_to_myself("为" + sender + "增加" + str(score) + "分, 当前积分: " str(cur_score))
+    send_msg_to_myself("为" + sender + "增加" + str(score) + "分, 当前积分: " + str(cur_score))
     return
 
 command_dict = {
