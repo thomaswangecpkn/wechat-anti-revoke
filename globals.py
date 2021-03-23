@@ -10,10 +10,10 @@ bot = itchat.new_instance()
 
 global_params = {
     "DEBUG": 1,
-    "VERSION": "V3.0.2",
     "data_path": "/home/data",
     "src_data_path": "data",
-    "cbyl_group_init_name": "北京的咕咕咕咕菇",
+    "VERSION": "V3.1.1",
+    "cbyl_group_init_name": "咕咕咕咕咕咕咕咕咕咕咕咕咕咕咕呱",
     "cbyl_group_username": None,
     "admin_user_init_name": "逗你玩",
     "admin_user_username": None,
@@ -22,6 +22,8 @@ global_params = {
     "anti_revoke_status": None,
     "cbyl_last_revoke": None,
     "dpl_last_revoke": None,
+    "word_statis": None,
+    "speak_statis": None,
 }
 
 globals_file_name = "globals.json"
@@ -39,6 +41,10 @@ def module_globals_init():
     global_params["anti_revoke_status"] = load_json_from_file(globals_file_path_name)
     if type(global_params["anti_revoke_status"]) is not dict or "expire_time" not in global_params["anti_revoke_status"].keys():
         global_params["anti_revoke_status"] = { "expire_time": 0 }
+    if type(global_params["word_statis"]) is not dict:
+        global_params["word_statis"] = dict()
+    if type(global_params["speak_statis"]) is not dict:
+        global_params["speak_statis"] = dict()
 
 def set_anti_revoke_status(expire_time):
     global_params["anti_revoke_status"]["expire_time"] = expire_time

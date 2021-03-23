@@ -28,6 +28,18 @@ def user_get_score(msg):
     broadcast_msg(send_msg)
     return
 
+def user_get_statis(msg):
+    lst = sorted(global_params["word_statis"].items(), key=lambda d: d[1], reverse=True)
+    send_msg = "防饺子撤回神器" + global_params["VERSION"] + ", 大划子统计\n"
+    if len(lst) >= 1:
+        send_msg += lst[0][0] + ": " + "划水" + str(global_params["speak_statis"][lst[0][0]]) + "次, 共计" + str(global_params["word_statis"][lst[0][0]]) + "词, 获得称号【老划子】\n"
+    if len(lst) >= 2:
+        send_msg += lst[1][0] + ": " + "划水" + str(global_params["speak_statis"][lst[1][0]]) + "次, 共计" + str(global_params["word_statis"][lst[1][0]]) + "词, 获得称号【大划子】\n"
+    if len(lst) >= 3:
+        send_msg += lst[2][0] + ": " + "划水" + str(global_params["speak_statis"][lst[2][0]]) + "次, 共计" + str(global_params["word_statis"][lst[2][0]]) + "词, 获得称号【小划子】"
+    broadcast_msg(send_msg)
+    return
+    
 bonus_dict = {
     1: { "cost": 200, "func": get_dpl_last_revoke },
     2: { "cost": 200, "func": get_cbyl_last_revoke },
@@ -116,7 +128,8 @@ def admin_add_score(msg):
 command_dict = {
     "#帮助" : user_get_helper,
     "#查询" : user_get_score,
-    "#兑换" : user_get_bonus
+    "#兑换" : user_get_bonus,
+    "#统计" : user_get_statis
 }
 
 admin_command_dict = {

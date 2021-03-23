@@ -143,7 +143,6 @@ def add_score_by_key(sender, key):
     save_json_to_file(ranking_file_path_name, global_params["ranking_dict"])
     return None
 
-
 def take_score(sender, score_taken):
     if sender not in global_params["ranking_dict"].keys():
         global_params["ranking_dict"][sender] = {}
@@ -178,27 +177,42 @@ def add_hit_time(sender):
     global_params["ranking_dict"][sender]["hit_time_list"].append(cur_time)
     return
 
+def add_chat_statis(sender, word_cnt):
+    if sender not in global_params["word_statis"].keys():
+        global_params["word_statis"][sender] = 1
+    else:
+        global_params["word_statis"][sender] += word_cnt
+    if sender not in global_params["speak_statis"].keys():
+        global_params["speak_statis"][sender] = 1
+    else:
+        global_params["speak_statis"][sender] += 1
+    return
+
 def keyword_award_normal_msg_process(msg):
+    sender, receiver = get_sender_receiver(msg)
     if global_params["DEBUG"] == 0 and msg['FromUserName'] != global_params["cbyl_group_username"]:
         return False
     if global_params["DEBUG"] == 1 and msg['FromUserName'] != global_params["cbyl_group_username"] and (msg['FromUserName'] != global_params["admin_user_username"] or msg['ToUserName'] != global_params["admin_user_username"]):
         return False
     if len(msg['FileName']) > 0 and len(msg['Url']) == 0:
+        add_chat_statis(sender, 10)
         return False
     msg_str = msg['Text']
+    add_chat_statis(sender, len(msg_str))
     abuse_punish = check_if_abuse(msg_str)
     if abuse_punish > 0:
-        sender, receiver = get_sender_receiver(msg)
         take_score(sender, abuse_punish)
         broadcast_msg(get_punish_msg(sender, abuse_punish))
         return True
     key = search_keyword_in_msg(msg_str)
     if key:
-        sender, receiver = get_sender_receiver(msg)
         if check_hit_time(sender):
             add_score_by_key(sender, key)
             broadcast_msg(get_award_msg(sender, key))
             return True
+        add_score(sender, key)
+        broadcast_msg(get_award_msg(sender, key))
+        return True
     return False
 
 def get_score(sender):
